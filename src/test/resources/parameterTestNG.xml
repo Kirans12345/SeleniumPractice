@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite2" verbose="1">
+   <test name="TestCycle1">
+      <parameter name="username" value="admin" />
+      <parameter name="password" value="admin@1234" />
+      <classes>
+         <class name="com.datadrivenExcelSheets.ParameterDemo" />
+      </classes>
+   </test>
+   <test name="TestCycle2">
+      <parameter name="username" value="malay" />
+      <parameter name="password" value="admin@1234" />
+      <classes>
+         <class name="com.datadrivenExcelSheets.ParameterDemo" />
+      </classes>
+   </test>
+   <test name="TestCycle3">
+      <parameter name="username" value="KiranS" />
+      <parameter name="password" value="admin@1234" />
+      <classes>
+         <class name="com.datadrivenExcelSheets.ParameterDemo" />
+      </classes>
+   </test>
+</suite>

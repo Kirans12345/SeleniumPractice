@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-10T12:12:57 IST" name="Default suite" finished-at="2024-01-10T12:13:08 IST" duration-ms="11876">
+    <groups>
+    </groups>
+    <test started-at="2024-01-10T12:12:57 IST" name="Default test" finished-at="2024-01-10T12:13:08 IST" duration-ms="11876">
+      <class name="pages.DataDrivenDemoWebShop">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:pages.DataDrivenDemoWebShop@413d1baf]" started-at="2024-01-10T12:12:57 IST" name="openbrowser" finished-at="2024-01-10T12:13:06 IST" duration-ms="9129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="CreateAccount(java.lang.String,java.lang.String)[pri:0, instance:pages.DataDrivenDemoWebShop@413d1baf]" started-at="2024-01-10T12:13:06 IST" name="CreateAccount" data-provider="testdata" finished-at="2024-01-10T12:13:07 IST" duration-ms="955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method signature="CreateAccount(java.lang.String,java.lang.String)[pri:0, instance:pages.DataDrivenDemoWebShop@413d1baf]" started-at="2024-01-10T12:13:07 IST" name="CreateAccount" data-provider="testdata" finished-at="2024-01-10T12:13:08 IST" duration-ms="908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method signature="CreateAccount(java.lang.String,java.lang.String)[pri:0, instance:pages.DataDrivenDemoWebShop@413d1baf]" started-at="2024-01-10T12:13:08 IST" name="CreateAccount" data-provider="testdata" finished-at="2024-01-10T12:13:08 IST" duration-ms="777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user3@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+      </class> <!-- pages.DataDrivenDemoWebShop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
